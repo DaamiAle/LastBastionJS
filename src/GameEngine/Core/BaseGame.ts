@@ -5,7 +5,7 @@ abstract class BaseGame {
     gameName: string;
     constructor(gameName: string) {
         this.gameName = gameName;
-        this.gameEngine = new GameEngine();
+        this.gameEngine = GameEngine.GameEngine();
     }
 
     public abstract StartGame(): void;

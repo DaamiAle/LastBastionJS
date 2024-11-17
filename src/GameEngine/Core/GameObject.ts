@@ -1,9 +1,9 @@
+import { Container } from "pixi.js";
 
-
-class GameObject{
-    
-    constructor() { }
-  
+class GameObject {
+    transform: Container;
+    constructor() {
+    }
     update(): void { }
  
 }
